@@ -1,0 +1,3 @@
+volumes:
+      - /proc:/host/proc:ro               # cpu_model.sh (cpuinfo)
+      - /sys:/host/sys:ro                 # cpu_temp.sh, l.disk.util.get.sh (stat, block)
